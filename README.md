@@ -26,3 +26,5 @@ Finally, just use that dpi with img2pdf to merge the images into the final pdf y
     sudo python3 setup.py install
     cd ..
     rm -rf img2pdf
+
+Run your img2pdf command with the corrent dpi, but DOUBLE CHECK THE OUTPUTED PDF! I've had cases where the third page gets transposed to the 20th page, etc... because shell globbing doesn't always work as you expect
